@@ -1,0 +1,59 @@
+
+body{
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 30px 0;
+    padding:20px;
+    font-size: xx-large;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888
+}
+
+input[type="button"]{
+    border-radius: 10px;
+    background-color: #000;
+    color:#fff;
+    border-color:#000;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+input[type="text"]{
+    border-radius: 10px;
+    text-align: right;
+    background-color: #000;
+    color:#fff;
+    border-color: #fff;
+    width:100%;
+    height:100%;
+    font-size: xx-large;
+}
+
+td{
+    width:100px;
+    height:80px;
+}
+
+input[type="button"]:active{
+    transform: scale(0.9);
+}
+
+.edit{
+    display: flex;
+    gap:1px;
+    /* transform: skew(deg); */
+    flex-direction: column;
+    margin-bottom:5px;
+
+}
